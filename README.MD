@@ -31,10 +31,6 @@
     <Pet 1>
     >>> persons[0].pets.all()[0].name
     'pupu'
-    >>> pets = Pets.query.all()
-    Traceback (most recent call last):
-    File "<stdin>", line 1, in <module>
-    NameError: name 'Pets' is not defined
     >>> pets = Pet.query.all()
     >>> pets
     [<Pet 1>, <Pet 2>, <Pet 3>]
